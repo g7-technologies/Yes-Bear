@@ -1,0 +1,52 @@
+{
+  "name": "YesBear",
+  "version": "1.0.0",
+  "description": "Minting Dapp crafted by Qubitars",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@crossmint/client-sdk-react-ui": "^0.1.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^6.2.1",
+    "react-router-hash-link": "^2.4.3",
+    "react-scripts": "4.0.3",
+    "react-slick": "^0.28.1",
+    "redux": "^4.1.1",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.3.3",
+    "swiper": "^8.0.7",
+    "web-vitals": "^2.1.2",
+    "web3": "^1.5.1",
+    "web3-eth-contract": "^1.5.2",
+    "@rumess/react-flip-countdown": "^1.2.6",
+    "aos": "^2.3.4",
+    "react-countup": "^6.3.1",
+    "react-light-accordion": "^0.1.4"
+  },
+  "author": "Syed Muhammad Ali Shah Bukhari",
+  "license": "MIT",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@iconify/react": "^3.2.0"
+  }
+}
