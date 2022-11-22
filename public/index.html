@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Yes Bear is a unique collection of 10,000 Pixelated NFTs that live on the Ethereum blockchain (ERC-721). Featuring a myriad of distinct and powerful traits, the Yes Bear collection offers its holders access to a branded toy collection, an immersive mobile game featuring holders’ 
+      favorite Yes Bear NFTs, token-gated merchandise drops, an exclusive expansion collection mint, and more to come!"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!-- google fonts  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Palanquin&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Play&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      #spinner {
+        background: #080a23f2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        right: 0;
+      }
+      .loading {
+        animation-name: spin;
+        animation-duration: 2000ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      .loading img {
+        width: 120px;
+      }
+
+      @keyframes spin {
+        0%,
+        20%,
+        50%,
+        80%,
+        100% {
+          transform: translateY(0);
+        }
+        40% {
+          transform: translateY(-30px);
+        }
+        60% {
+          transform: translateY(-15px);
+        }
+      }
+    </style>
+    <title>Yes Bear</title>
+  </head>
+  <body>
+    <div id="spinner">
+      <div class="loading">
+        <img src="./preloader.png" class="img-fluid preloader" alt="" />
+      </div>
+    </div>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
